@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+<link href="https://fonts.googleapis.com/css?family=Lobster|Pacifico" rel="stylesheet">
+    <title>Places You've Been</title>
+</head>
+
+<body>
+    <section id="fadeInLeft" class="section section-dark ">
+      <br><br>
+        <h2>Places You've Been</h2>
+        <p>Add your information so we can track where you are</p>
+        <br><br>
+        <div class="container">
+
+            <form id="new-contact">
+                <div class="form-group">
+                    <label for="new-first-name">Place you've been</label>
+                    <input type="text" id="new-first-name">
+                </div>
+                <div class="form-group group2">
+                    <label for="new-last-name">Landmark</label>
+                    <input type="text" id="new-last-name">
+                </div>
+                <div class="form-group group3">
+                    <label for="new-phone-number">time of year</label>
+                    <input type="text" id="new-phone-number">
+                </div>
+                <div class="form-group group4">
+                    <label for="new-image">Input image url</label>
+                    <input type="text" id="new-image">
+                </div>
+
+                <button type="submit" class="btn btn-info">Add</button>
+            </form>
+        </div>
+
+    </section>
+
+    <section id="addressBook" class="section section-dark">
+        <h2>Contacts</h2>
+        <div id="contacts">
+
+        </div>
+        <img id = "fuckYou" src="img/hi.png" alt="WHY GOD">
+        <div id="show-contact">
+            <!-- <div id="images">
+
+            </div> -->
+
+            <h1 class ="titleInject"></h1>
+            <p><span class = "images"></span></p>
+            <p>First Name: <span class="first-name"></span></p>
+            <p>Last Name: <span class="last-name"></span></p>
+            <p>Phone Number: <span class="phone-number"></span></p>
+
+            <div id="buttons">
+          </div>
+        </div>
+    </section>
+
+</body>
+
+</html>

@@ -1,0 +1,66 @@
+body {
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(34,46,36,1) 35%, rgba(0,212,255,1) 100%);
+color: white;
+font-family: 'Lobster', cursive;
+}
+
+#show-contact {
+  display: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#fuckYou{
+  display: none;
+}
+img {
+  height: 400px;
+
+}
+#new-contact{
+align-self: center;
+}
+#new-contact label{
+  font-size: 20px;
+  letter-spacing: 10px;
+}
+#fadeInLeft h2{
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 20px;
+  font-family: 'Pacifico', cursive;
+  color: grey;
+
+}
+#fadeInLeft p{
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 10px;
+  font-family: 'Pacifico', cursive;
+  color: grey;
+}
+
+.section-dark {
+  margin: auto 0;
+  text-align: center;
+  display: center;
+  align-self: center;
+}
+
+#images{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 1em;
+
+}
+
+#contacts {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  flex-wrap: nowrap;
+
+}
